@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+          <form class="login-form" action="signup.php" method="post">
+            <h1>YSC</h1>
+            <p>Create an Account</p>
+            <input type="text" placeholder="First Name" name="fname" required/>
+            <input type="text" placeholder="Last Name" name="lname" required/>
+            <input type="text" placeholder="Email" name="email" required/>
+            <input type="text" placeholder="Phone Number" name="phone" required/>
+            <input type="text" placeholder="Social Security Number" name="ssn" required/>
+            <input type="text" placeholder="Mediccare Number" name="mednb" required/>
+            <input type="date" name="dob"/>
+            <input type="text" placeholder="City" name="city" required/>
+            <input type="text" placeholder="Address" name="address" required/>
+            <input type="text" placeholder="Postal Code" name="postal" required/>
+            <select name="province">
+              <option value="NL">Newfoundland & Labrador</option>
+              <option value="PE">Prince Edward Island</option>
+              <option value="NS">Nova Scotia</option>
+              <option value="NB">New Brunswick</option>
+              <option value="QC">Quebec</option>
+              <option value="ON">Ontario</option>
+              <option value="MB">Manitoba</option>
+              <option value="SK">Saskatchewan</option>
+              <option value="AB">Alberta</option>
+              <option value="BC">British Columbia</option>
+              <option value="YT">Yukon</option>
+              <option value="NT">Northwestern Territories</option>
+              <option value="NU">Nunavut</option>
+            </select>
+            <button>Sign up !</button>
+            <p class="message">Already have an account? <a href="login.html">Login</a></p>
+          </form>
+
+        </div>
+      </div>
+</body>
+</html>
